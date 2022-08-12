@@ -1,0 +1,29 @@
+{
+  "name": "node-cli-application",
+  "version": "1.0.0",
+  "description": "Links:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iura-Radulov/node-cli-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iura-Radulov/node-cli-application/issues"
+  },
+  "homepage": "https://github.com/Iura-Radulov/node-cli-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.5.1"
+  }
+}
